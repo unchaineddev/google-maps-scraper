@@ -34,12 +34,12 @@ The result will be saved in the ``io_folder`` with the file named ``file.csv``
 
 ## How many parallel processes?
 
-- By default, there are 15 processes. You can increase or decrease it as per your requirements. 
+- By default, there is 1 process. You can increase or decrease it as per your requirements. 
 
 To do this change this line:
 
 ```python
-num_processes = 15     # change this line
+num_processes = 1     # change this line
 # """rest of the code"""
 ``` 
 
